@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+
+body{
+    margin:auto;
+    padding:0;
+    box-sizing: border-box;
+    width:100%;
+    font-family: 'poppins',sans-serif;
+    font-size: 40px;
+
+}
+
+/*------------navbar--------*/
+.bold{
+    font-size:25px; 
+}
+li{
+    padding:5px;
+}
+.nav-link{
+    font-size:15px;
+    font-weight: bold;
+    border:2px solid transparent;
+}
+.nav-link:hover{
+    border-bottom: 2px solid blue;
+    transition: .1s;
+}
+.news {
+    width: 76%;
+    background:#265a71;
+    padding: 0 2%
+}
+
+
+.news marquee {
+    font-size: 18px;
+    margin-top: 12px
+}
+
+.news-content p {
+    margin-right: 41px;
+    display: inline
+}
+.alert-primary{
+    font-size: 24px;
+
+}
+.my-lg-2{
+    font-family: 25px;
+}
+.table{
+    background-color: black;
+    text-decoration-color: white;
+    font-size: 20px;
+}
